@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-9-10, 12:46:25
+    Author     : Administrator
+*/
+.lrid{
+    width:100px;
+    text-align: center;
+}
+.lrdate{
+    width:100px;
+    text-align: center;
+}
+.isbn{
+    width:100px;
+    text-align: center;
+}
+.bname{
+    width:100px;
+    text-align: center;
+}
+.num{
+    width:100px;
+    text-align: center;
+}

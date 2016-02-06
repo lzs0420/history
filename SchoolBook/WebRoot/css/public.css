@@ -1,0 +1,74 @@
+/* 
+    Document   : public
+    Created on : 2013-12-9, 21:56:18
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+     font-family: Arial;
+     width:80%;
+     background-color:#ebebeb;
+     margin:0 auto;
+     padding: 0;
+     text-align:center;
+}
+
+#header{
+     background-color:#000000;
+     text-align:center;
+     margin:0;
+     padding:0;
+}
+
+#mainmenu{
+     font-weight: bold;
+     height: 1.8em;
+     background-color: #009999;
+     overflow: hidden;
+}
+#mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#mainmenu li {
+    float: left;
+    padding: 3px 15px 4px 15px;
+    white-space: nowrap;
+    border-right: 1px #ebebeb solid;
+    color: #ebebeb;
+    text-decoration: none;
+}
+#mainmenu li:hover {
+    background-color: #ebebeb;
+    padding-right: 13px;
+    padding-bottom: 5px;
+    border-right: 3px #999999 solid;
+    border-bottom: 3px #999999 solid;
+    color: #336666;
+}
+
+a{text-decoration:none}
+
+#public1 a:hover{
+    color:#363636;
+}
+
+#footer p{
+     margin:0;
+     padding:10px 0;
+     background-color:#dddddd;
+     text-align:center;
+     font-size:.8em;
+}
+
+.textinput{
+background:#ffffff;border:cornflowerblue solid thin;color: #000000; font-size: 12px;  height: 22px;} 
+
+.resetbutton,.submitbutton{
+background:#adadad;  color: #000000; font-size: 9pt; height: 30px;width: 40px;font-family: gigi; } 

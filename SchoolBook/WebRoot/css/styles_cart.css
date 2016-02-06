@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-9-10, 13:23:44
+    Author     : Administrator
+*/
+a{text-decoration:none;}
+body{
+    font-family: Verdana,Geneva,"Bitstream Vera Sans","SejaVu Sans",sans-serif;
+    background-color: #666666;
+    color: #000000;
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+#container{
+     width:74%;
+     background-color:#ebebeb;
+     margin:0 auto;
+     padding: 0;
+     text-align:left;
+}
+#header{
+     background-color:#000000;
+     text-align:center;
+     margin:0;
+     padding:0;
+}
+#maincontent{
+     float: left;
+     
+     margin-left:73px;
+     //padding:10px 20px 0 1em;
+     widht:1500px;
+     //height:80%;
+}
+
+#footer p{
+     margin:0;
+     padding:10px 0;
+     background-color:#dddddd;
+     text-align:center;
+     font-size:.8em;
+}
+
+.photo{
+    width: 200px;
+    font-size: .8em;
+    font-style: italic;
+    line-height: 1em;
+}
+.floatringht{
+    float: right;
+    margin-left: .8em;
+}
+
+.log{
+    height: 50px;
+    padding: 10px;
+    background-color: #666666;
+    color: #adadad;
+    border:  #dddddd;
+}
+#log1{
+    background-color: #039;
+    color: #ffffff;
+}
+.login{
+    border: none;
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 35px;
+    font-size:large;
+}
+.login:hover{
+    cursor: pointer;
+    color: black;
+    background-color: gray;
+}
+table{
+    border-width: 0;
+    border-color: black;
+}
+hr{
+    width: 873px;
+    border-color: black;
+}
+.check{
+   background-color: white;
+}
+.cno{
+    width: 50px;
+    text-align: center;
+    background-color: white;
+}
+.isbn{
+    width: 120px;
+    text-align: center;
+    background-color: white;
+}
+.bname{
+    width:150px;
+    height:35px;
+    text-align: center;
+    background-color: white;
+}
+.auth{
+    width:100px;
+    height:35px;
+    text-align: center;
+    background-color: white;
+}
+.price{
+    width:100px;
+    height:35px;
+    text-align: center;
+    background-color: white;
+}
+.press{
+    width:150px;
+    height:35px;
+    text-align: center;
+    background-color: white;
+}
+.num{
+     width: 50px;
+     height:35px;
+    text-align: center;
+    background-color: white;
+}
+.op{
+    width: 80px;
+    height:35px;
+ text-align: center;  
+ background-color: white;
+}

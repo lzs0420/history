@@ -1,0 +1,117 @@
+a{text-decoration:none;}
+body{
+    font-family: Verdana,Geneva,"Bitstream Vera Sans","SejaVu Sans",sans-serif;
+    background-color: #666666;
+    color: #000000;
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+iframe{
+    border-width: 0;
+}
+#container{
+     width:74%;
+     background-color:#ebebeb;
+     margin:0 auto;
+     padding: 0;
+     text-align:left;
+}
+
+#header{
+     background-color:#000000;
+     text-align:center;
+     margin:0;
+     padding:0;
+}
+
+#mainmenu{
+     font-weight: bold;
+     height: 1.8em;
+     background-color: #009999;
+     overflow: hidden;
+}
+#mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#mainmenu a:hover{color:#336666 }
+#mainmenu a{text-decoration:none;color: #ffffff;}
+#mainmenu li {
+    float: left;
+    padding: 3px 15px 4px 15px;
+    white-space: nowrap;
+    border-right: 1px #ebebeb solid;
+    color: #ebebeb;
+    text-decoration: none;
+}
+#mainmenu li:hover {
+    background-color: #ebebeb;
+    padding-right: 13px;
+    padding-bottom: 5px;
+    border-right: 3px #999999 solid;
+    border-bottom: 3px #999999 solid;
+    color: #336666;
+}
+
+#sidebar{
+     float: left;
+     color: #666666;
+     //width:15em;
+     text-align: center;
+}
+
+#maincontent{
+     float: left;
+     background-color:#ffffff;
+     //margin-left:10;
+     //padding:10px 20px 0 1em;
+     //widht:60%;
+     //height:80%;
+}
+
+#footer p{
+     margin:0;
+     padding:10px 0;
+     background-color:#dddddd;
+     text-align:center;
+     font-size:.8em;
+}
+
+.photo{
+    width: 200px;
+    font-size: .8em;
+    font-style: italic;
+    line-height: 1em;
+}
+.floatringht{
+    float: right;
+    margin-left: .8em;
+}
+
+.log{
+    height: 50px;
+    padding: 10px;
+    background-color: #666666;
+    color: #adadad;
+    border:  #dddddd;
+}
+#log1{
+    background-color: #039;
+    color: #ffffff;
+}
+.login{
+    border: none;
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 35px;
+    font-size:large;
+}
+.login:hover{
+    cursor: pointer;
+    color: black;
+    background-color: gray;
+}
+

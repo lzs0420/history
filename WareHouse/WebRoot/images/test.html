@@ -1,0 +1,32 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+ <html>   
+<head>   
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />   
+<title>JS�̳�:�����ͣ��������ʾͼƬ</title>   
+<script language="javascript">
+   
+function showPic(){   
+var x,y;   
+x = event.clientX;   
+y = event.clientY;   
+document.getElementById("Layer1").style.left = x;   
+document.getElementById("Layer1").style.top = y;   
+document.getElementById("Layer1").innerHTML = "<img style=position:absolute; src=修改密码.gif>";   
+document.getElementById("Layer1").style.display = "block";   
+}   
+function hiddenPic(){   
+document.getElementById("Layer1").innerHTML = "haha!!";   
+document.getElementById("Layer1").style.display = "block";   
+}   
+</script>   
+</head>   
+<body>   
+<div id="Layer1"  onmouseover="showPic();" onmouseout="hiddenPic();">haha!!
+  </div>   rkeljtglerj ljflwejferjgljrelf都市风格的供热改革和体会
+<p></p>   
+</body>   
+</html> 

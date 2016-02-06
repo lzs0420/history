@@ -1,0 +1,45 @@
+plant s=(plant)request.getAttribute("plant");
+if(s!=null){
+String pid=s.getP_id();
+String pname= s.getP_name();
+String pflocence= s.getP_florescence();
+String psummary= s.getP_summary();
+String pfeature= s.getP_feature();
+String pdistribution= s.getP_distribution();
+String pvalue= s.getP_value();
+String pculture= s.getP_culture();
+List<adress> b=s.getList_adress();
+String temp1="";
+                for(adress ad:b){
+                    temp1+=ad.getP_adress1()+";";
+                    
+                }temp1+="此项无需填";
+ request.removeAttribute("plant");
+ 
+ <script type="text/javascript">
+    var pid1='<%=pid%>';
+  var pname1= '<%=pname%>';
+var pflocence1= '<%=pflocence%>';
+var psummary1= '<%=psummary%>';
+var pfeature1= '<%=pfeature%>';
+var pdistribution1= '<%=pdistribution%>';
+var pvalue1= '<%=pvalue%>';
+var pculture1= '<%=pculture%>';
+var temp11='<%=temp1%>';
+  function show2(){
+          form1.action="plantUpdate";
+	  document.getElementById("xx").style.display="block";
+          
+          document.form1.P_id.value=pid1;
+          document.form1.P_name.value=pname1;
+          document.form1.P_flocence.value=pflocence1;
+          document.form1.P_summary.value=psummary1;
+          document.form1.P_feature.value=pfeature1;
+          document.form1.P_distribution.value=pdistribution1;
+          document.form1.P_value.value=pvalue1;
+          document.form1.P_culture.value=pculture1;
+          document.form1.P_adress1.value=temp11;
+  }
+</script>
+<%  
+}

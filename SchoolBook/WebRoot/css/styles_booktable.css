@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-9-5, 15:27:21
+    Author     : Administrator
+*/
+
+.btid
+{
+ width: 30px;
+ text-align: center;   
+}
+.date
+{
+  width: 120px;
+ text-align: center;     
+}
+.name{
+ width: 50px;
+ text-align: center;  
+}
+.phone{
+ width: 90px;
+ text-align: center;  
+}
+.isbn{
+    width: 80px;
+    text-align: center;
+}
+.bname{
+    width:150px;
+    text-align: center;
+}
+.price{
+    widht:83px;
+    text-align: center;
+}
+.store{
+    width: 50px;
+    text-align: center;
+}
+.num{
+     width: 50px;
+    text-align: center;
+}
+.op{
+    width: 80px;
+ text-align: center;  
+}

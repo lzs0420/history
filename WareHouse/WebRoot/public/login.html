@@ -1,0 +1,108 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>仓库管理系统</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="../js/inputcheck.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/styles_login.css">
+        <style type="text/css">
+    div{margin:0 auto}
+    ul,ol,li {list-style:none}
+    a{text-decoration:none;word-wrap:break-word;outline:none;hide-focus:expression(this.hideFocus=true);transition:all 0.2s ease-in-out;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;}
+    a:hover{text-decoration:none;}
+    .lanmu-content{width:160px;overflow:hidden;}
+    .lanmu-list{display:block;}
+    .lanmu-list dt{display:block;height:40px;background:#ebebeb;font:bold 14px/40px "宋体"; color:#009999;padding-left:10px;}
+    .lanmu-list dd{padding-top:2px;}
+    .lanmu-list dd a{display:block;height:33px;background:#f9f9f9;border-bottom:1px solid #eee;border-top:2px solid #fff;border-left:2px solid #999;border-right:2px solid #ebebeb;font:normal 12px/33px Georgia "宋体"; color:#adadad;padding-left:5px; line-height: 33px;}
+    .lanmu-list dd a:hover{padding-left:35px;}
+    .lanmu-list dd a:hover,.lanmu-list dd a.current{border-left:2px solid #1160ba;background-color:#f6f6f6;color:#1160ba;font-weight:bold;}
+
+    </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <img src="../images/login.jpg" width="1000" height="200" title="龙哥自制仓库管理系统"/>
+            </div>
+            <div id="mainmenu">
+                <ul>
+                <li>首页&nbsp;&nbsp;&nbsp;</li>
+                    <li>网站介绍 &nbsp;&nbsp;&nbsp;</li>
+                    <li>仓库管理系统介绍</li>
+                    <li>设为主页 &nbsp;&nbsp;&nbsp;</li>
+                    <li>收藏本页&nbsp;&nbsp;&nbsp;</li>
+                    <li>联系我们 &nbsp;&nbsp;&nbsp;</li>
+                   
+                </ul>
+            </div>
+            <div id="sidebar">
+                <form method="post" action="#" name="loginform" target="_self" onsubmit="return check_login();">
+                    <p style="color:#ff0000;">&nbsp;&nbsp;&nbsp;&nbsp;登&nbsp;&nbsp;&nbsp;录</p>
+                    <p>员工号:
+                            <input id="input1" name="work_id" type="text" class="input1">
+                    </p>
+                    <p>密码 &nbsp;:
+                            <input  id="input1" name="password" type="password" class="input1">
+                    </p>
+                    <p>职位&nbsp;&nbsp;:
+                            <select size="1" name="job" style="width:155px; height:25px;">
+                              <option selected value="saleman"> 销售人员</option>
+                              <option value="buyer"> 采购人员</option>
+                              <option value="admin"> 库管人员</option>
+                              <option value="manager"> 经理</option>
+                            </select>
+                    </p>
+                          
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              <input name="登录" type="submit" value="登录">&nbsp;&nbsp;
+                            <input name="重置" type="reset" value="重置">
+                    </p>
+                    </form>
+    
+	<div class="lanmu-content">
+	<dl class="lanmu-list">
+    	<dt>友情链接</dt>
+        <dd><a href="http://www.baidu.com" class='current'  title="百度">百度</a></dd>
+        <dd><a href='http://www.google.com' title="谷歌">谷歌</a></dd>
+        <dd><a href='http://www.360.com' title="360">360</a></dd>
+        <dd><a href='http://www.douding.com' title="豆丁">豆丁</a></dd>
+        <dd><a href='http://www.4399.com' title="4399小游戏">4399小游戏</a></dd>
+        <dd><a href='http://www.duote.com' title="多特下载">多特下载</a></dd>
+        <dd><a href='http://www.youxun.com' title="游讯网">游讯网</a></dd>
+        <dd><a href='http://www.w3chool.com' title="JSHTML5/CSS3">w3chool</a></dd>
+        <dd><a href='http://www.zzu.edu.cn' title="郑大">郑大</a></dd>    
+    </dl>
+    </div>
+            </div>
+            <div id="maincontent">
+                <p class="photo floatringht"><img src="../images/login1.jpg" width="200" height="400" title="~~~~~~!!"/>&nbsp;&nbsp;&nbsp;&nbsp;some picture~~</p>
+                <h2>清爽友好的操作界面</h2>
+                    <p>整个界面给您一种清爽的感觉。菜单分类清晰，一目了然。系统内部众多功能的巧妙安排，使业务操作即使未经过培训的操作人员，只要具备计算机操作常识和一定的业务能力，就可以很快上手，错综复杂的账务处理全部在系统内部完成，您的操作从此变得那么从容简单，省时又省心。</p>
+                <h2>安全可靠的数据库</h2>
+                    <p>软件采用强大可靠的Microsoft SQL Server 2000大型数据库作为数据存储支持其数据的传输速度快捷、稳定、安全性高、便于后期维护。并且其查询分析性能卓越，存储量大。</p>
+                <h2>强大实用的进销存</h2>
+                    <p>商务管理软件集采购、销售、库存、应收、应付、单据报表、统计报表分析、零售等进销存功能一体。大量烦琐复杂业务可以由系统自动生成，使您彻底脱离手工记帐的烦琐工作，从而使您开心、轻松的工作。</p>
+                <h2>轻松简单的财务功能</h2>
+                    <p>由财务专家为您打造的财务管理系统，不但功能齐全强大，而且简单易学，用户可以对财务进行轻松地管理，让企业在财务上游刃有余。</p>
+                <h2>高效实用的生产管理</h2>
+                    <p>商务管理软件吸取国内外生产管理的经验，实现由销定产，实时掌握生产的物料需求情况。 实现标准化、流程化，减少失误，提高质量，降低成本。</p>
+                <h2>了如指掌的客户关系管理</h2>
+                    <p>此项系统专为销售人员量身定做，让销售人员可以轻松管理日益增多的客户资源，提高老客户忠诚度，争取更多的新客户。客户的资料和联络记录永远在手，不怕销售人员流动；销售机会的进展和跟踪，一切进展尽在掌握；统计分析功能帮助您分析客户的分布、行业、类型、来源，为决策提供关键信息。</p>
+                <h2>快捷方便的报表查询</h2>
+                    <p>报表中心提供了有关进货、销售、库存、成本、往来、账务等一系列报表，覆盖面广，统计方法科学，数据准确。所有的报表和基本资料均可导入Excel中进行分析加工，以满足用户的更多要求，您的主管一定会对您的工作极为赞叹的。</p>
+                <h2>简易低廉的远程访问</h2>
+                    <p>基于先进的客户机/服务器（C/S）体系结构开发而成，各个站点的数据可以即时通过网络传递到服务器端保存，管理人员可以随时看到更新的数据，极大地提高了信息传递的速度，使得企业的管理效率更上一层楼。</p>
+                <h2>方便快捷的数据输出</h2>
+                    <p>单据报表方便的导出到Excel,打印功能适合各类纸张、单据套打连续打印、表格形式的报表打印。并可自定义打印格式。</p>
+            </div>
+            <div id="footer">
+                <p>&copysr;2013java与数据库课程设计-411寝室</p>
+            </div>
+        </div>
+    </body>
+</html>
